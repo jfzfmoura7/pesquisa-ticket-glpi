@@ -1,0 +1,17 @@
+* {
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    background-color: rgb(196, 207, 218);
+    text-align: center;
+}
+
+svg {
+    size: 100%;
+}
+
+table{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+th{
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="ico">
+        <title>Busca de ticket</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <header>
+                    <h1>Busca de Tickets</h1>
+                </header>
+            </div>
+            <main>
+                <div class="form">
+                    <section>
+                        <form id="pesquisaTicket" method="post">
+                            <label for="id">Pesquisar número do ticket</label>
+                            <input type="number" id="id" name="id"><br>
+                            <div class="buttons">
+                                <button type="submit" class="btnSubmit">Pesquisar</button>
+                                <button id="logout">Logoff</button>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+                <div class="resultado">
+                    <table id="tabelaTickets">
+                        <thead>
+                            <tr class="cabecalho">
+                                <th>ID</th>
+                                <th>Título</th>
+                                <th>Data de abertura</th>
+                                <th>Data da última atualização</th>
+                                <th>Status</th>
+                                <th>Requerente(ID)</th>
+                                <th>Atendente(ID)</th>
+                                <th>Entidade(ID)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+            <footer>
+            </footer>
+        </div>
+        <script src="script/pesquisaTicket.js"></script>
+    </body>
+</html>
